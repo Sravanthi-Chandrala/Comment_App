@@ -1,0 +1,26 @@
+
+.comment-list {
+    margin-top: 20px;
+  }
+  
+  .comment-list .comment + .comment {
+    margin-top: 10px;
+  }
+  .comment-attachments {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .attachment-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .attachment-item img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
